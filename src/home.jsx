@@ -43,27 +43,31 @@ function home() {
                 <div className="btn-group row">
                   <span>Escolha um nivel</span>
                   <input
-                    className="btn btn-primary"
+                    className="btn-primary"
                     type="button"
                     value="Fácil"
                   />
                   <input
-                    className="btn btn-primary "
+                    className="btn-primary "
                     type="button"
                     value="Médio"
                   />
                   <input
-                    className="btn btn-primary "
+                    className="btn-primary "
                     type="button"
                     value="Difícil"
                   />
                 </div>
+                  <div className="btn-div ">
+                    <input
+                      className="btn-confirm"
+                      type="button"
+                      value="Vamos Lá"
+                    />
+                  </div>
               </form>
             </div>
           </div>
-        </div>
-        <div className="btn-div">
-          <input className="btn btn-confirm " type="button" value="Vamos Lá" />
         </div>
       </div>
     </>
