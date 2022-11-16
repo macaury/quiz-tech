@@ -1,0 +1,48 @@
+@import "color.css";
+
+body {
+  background: var(--global-background);
+}
+.text-center {
+  background-color: transparent;
+}
+
+.form-control,
+.btn-primary {
+  border: none;
+}
+
+.form-control span {
+  padding: 5%;
+}
+
+.form-control span,
+.btn-primary {
+  color: var(--global-font);
+}
+
+.btn-primary {
+  background: var(--global-options);
+  margin-bottom: 30px;
+  border-radius: 15px !important;
+
+  max-width: 360px;
+  height: 50px;
+}
+
+.btn-primary:hover {
+  -webkit-transition:  linear 0.4s;
+  -moz-transition:  linear 0.4s;
+  -o-transition:  linear 0.4s;
+  transition: linear 0.4s;
+  background: var(--global-btn);
+}
+
+.btn-confirm{
+    background-color: var( --global-bottom-confirm);
+    min-width: 360px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
