@@ -26,7 +26,7 @@ body {
   margin-bottom: 30px;
   border-radius: 15px !important;
 
-  max-width: 360px;
+  width: 360px ;
   height: 50px;
 }
 
@@ -48,4 +48,29 @@ body {
     border:none;
 }
 
+
+/*
+css do formulario abaixo 
+*/
+
+
+
+.questions form{
+  border: solid 2px black;
+}
+
+.letra span{
+  padding-top: 0.8em;
+  padding-left: 0.8em;
+  position: absolute;
+
+
+}
+.letra:hover{
+  -webkit-transition:  linear 0.4s;
+  -moz-transition:  linear 0.4s;
+  -o-transition:  linear 0.4s;
+  transition: linear 0.4s;
+  color: var(--global-options);
+}
 
