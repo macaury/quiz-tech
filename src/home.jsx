@@ -39,25 +39,24 @@ function home() {
           </div>
           <div className=" col-md-6">
             <div className="form-control text-center ">
-              <form>
-                <div className="btn-group row">
+              <div className="btn-group row">
+                <form>
                   <span>Escolha um nivel</span>
                   <input
-                    className="btn-primary"
+                    className="btn-primary col-4 mt-3"
                     type="button"
                     value="Fácil"
                   />
                   <input
-                    className="btn-primary "
+                    className="btn-primary col-4"
                     type="button"
                     value="Médio"
                   />
                   <input
-                    className="btn-primary "
+                    className="btn-primary col-4"
                     type="button"
                     value="Difícil"
                   />
-                </div>
                   <div className="btn-div ">
                     <input
                       className="btn-confirm"
@@ -65,7 +64,8 @@ function home() {
                       value="Vamos Lá"
                     />
                   </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>

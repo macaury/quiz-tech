@@ -38,7 +38,7 @@ function navbar() {
           </div>
 
           <div className="close-window">
-            <FiXCircle />
+            <input className="btn-close" type="button" value="" />
           </div>
         </div>
       </div>
