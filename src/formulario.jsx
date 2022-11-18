@@ -13,6 +13,7 @@ function formulario() {
       <Navbar/>
       <Options/>
       <Footer/>
+
     </>
   );
 }
